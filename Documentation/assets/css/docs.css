@@ -1,0 +1,19 @@
+/*
+-------------------------------------------------------------------
+Documentation for Lovely Corporate HTML Template
+*/
+pre{
+    margin: 0;
+    background: transparent;
+    border-color: transparent;
+    max-height: 420px;
+}
+h1,h2,h3,h4,h5,h6{
+    text-transform: uppercase;
+}
+a{
+    color: #151515;
+}
+a:hover{
+    opacity: 0.8;
+}

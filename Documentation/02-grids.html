@@ -1,0 +1,984 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Documentation for Lovely Corporate Multiurpose Template">
+    <link rel="shortcut icon" href="assets/images/favicon.png">
+
+    <title>Grids | Lovely Corporate Multiurpose Template</title>
+
+    <link href="assets/css/uikit.min.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="assets/css/ionicons.min.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="assets/css/shCoreDefault.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="assets/css/theme.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="assets/css/docs.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="assets/css/responsive.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="https://fonts.googleapis.com/css?family=Droid+Sans:400,700%7CLora:400,400i%7CShadows+Into+Light:400" rel="stylesheet"
+    />
+
+</head>
+
+<body class="loading">
+    <div class="tw-preloader">
+        <div data-uk-spinner></div>
+    </div>
+    <div class="header-container tw-header tw-header-sidebar uk-light uk-height-viewport uk-visible@xl">
+
+
+        <div class="tw-header-top">
+            <div class="tw-logo">
+                <h3 class="site-name">
+                    <a href="index.html">Lovely</a>
+                </h3>
+            </div>
+        </div>
+
+        <div class="tw-header-middle">
+            <ul class="uk-nav-default uk-nav-parent-icon" data-uk-nav>
+                <li class="menu-item">
+                    <a href="index.html">Home</a>
+                </li>
+                <li class="menu-item">
+                    <a href="01-installation.html">Installation</a>
+                </li>
+                <li class="menu-item uk-active">
+                    <a href="02-grids.html">Grids</a>
+                </li>
+                <li class="menu-item">
+                    <a href="03-headers.html">Headers</a>
+                </li>
+                <li class="menu-item">
+                    <a href="04-menus.html">Menus</a>
+                </li>
+                <li class="menu-item">
+                    <a href="05-sliders.html">Sliders</a>
+                </li>
+                <li class="menu-item">
+                    <a href="06-page-title.html">Page Title</a>
+                </li>
+                <li class="menu-item">
+                    <a href="07-elements.html">Elements</a>
+                </li>
+                <li class="menu-item">
+                    <a href="08-footers.html">Footers</a>
+                </li>
+                <li class="menu-item">
+                    <a href="09-fullscreenjs.html">FullScreen JS</a>
+                </li>
+                <li class="menu-item">
+                    <a href="10-splitscreenjs.html">Split Screen JS</a>
+                </li>
+                <li class="menu-item">
+                    <a href="11-animations.html">Animations</a>
+                </li>
+            </ul>
+
+        </div>
+        <div class="tw-header-bottom">
+            <div class="tw-socials tw-socials-minimal">
+                <a class="uk-navbar-toggle" href="http://fb.com/themewaves"><i class="ion-social-facebook"></i></a>
+                <a class="uk-navbar-toggle" href="http://twitter.com/themewaves"><i class="ion-social-twitter"></i></a>
+                <a class="mobile-menu uk-navbar-toggle uk-hidden@m" href="#" data-uk-toggle="target: #mobile-menu-modal"><i class="ion-navicon-round"></i></a></a>
+            </div>
+        </div>
+    </div>
+    <div class="header-container tw-header tw-header-transparent uk-hidden@xl">
+        <nav class="uk-navbar-container uk-flex-center" data-uk-navbar>
+            <div class="uk-navbar-left">
+                <div class="tw-logo">
+                    <h3 class="site-name">
+                        <a href="index.html">Lovely</a>
+                    </h3>
+                </div>
+            </div>
+            <div class="uk-navbar-right">
+                <div class="tw-header-meta">
+                    <a class="mobile-menu uk-navbar-toggle uk-hidden@xl" href="#" data-uk-toggle="target: #mobile-menu-modal"><i class="ion-navicon-round"></i></a>
+                </div>
+            </div>
+        </nav>
+
+        <div id="mobile-menu-modal" class="uk-modal-full" data-uk-modal>
+            <div class="uk-modal-dialog">
+                <button class="uk-modal-close-full" type="button" data-uk-close></button>
+                <div class="uk-light uk-height-viewport tw-mobile-modal uk-flex uk-flex-middle uk-flex-center" data-uk-scrollspy="target:>ul>li,>div>a; cls:uk-animation-slide-bottom-medium; delay: 150;">
+                    <ul class="uk-nav-default uk-nav-parent-icon" data-uk-nav>
+                        <li class="uk-parent">
+                            <a href="index.html">Home</a>
+                        </li>
+                        <li class="uk-parent">
+                            <a href="01-installation.html">Installation</a>
+                        </li>
+                        <li class="uk-parent uk-active">
+                            <a href="02-grids.html">Grids</a>
+                        </li>
+                        <li class="uk-parent">
+                            <a href="03-headers.html">Headers</a>
+                        </li>
+                        <li class="uk-parent">
+                            <a href="04-menus.html">Menus</a>
+                        </li>
+                        <li class="uk-parent">
+                            <a href="05-sliders.html">Sliders</a>
+                        </li>
+                        <li class="uk-parent">
+                            <a href="06-page-title.html">Page Title</a>
+                        </li>
+                        <li class="uk-parent">
+                            <a href="07-elements.html">Elements</a>
+                        </li>
+                        <li class="uk-parent">
+                            <a href="08-footers.html">Footers</a>
+                        </li>
+                        <li class="uk-parent">
+                            <a href="09-fullscreenjs.html">FullScreen JS</a>
+                        </li>
+                        <li class="uk-parent">
+                            <a href="10-splitscreenjs.html">Split Screen JS</a>
+                        </li>
+                        <li class="uk-parent">
+                            <a href="11-animations.html">Animations</a>
+                        </li>
+                    </ul>
+
+
+                    <div class="tw-socials tw-socials-minimal">
+                        <a href="http://fb.com/themewaves"><i class="ion-social-facebook"></i></a>
+                        <a href="http://twitter.com/themewaves"><i class="ion-social-twitter"></i></a>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- .main-container close -->
+    <div class="main-container">
+        <section class="uk-section">
+            <div class="uk-container">
+                <div class="tw-element tw-box uk-margin-large-bottom">
+                    <h2 class="uk-text-uppercase">
+                        Grid Structure
+                    </h2>
+                    <p>Our theme is based on UiKit and you can get the Documentation on <a href="https://getuikit.com/docs/introduction"
+                            title="UiKit">UiKit website.</a></p>
+                    <div>
+                        <h1 id="width" class="h1 tm-heading-fragment"><a href="#width">Width</a></h1>
+                        <p class="uk-text-lead">Define the width of elements for different viewport sizes.</p>
+
+                        <p>UIkit's width component is often used in combination with <a href="grid">grids</a> to split content
+                            into responsive columns. You can apply fractions, automatic width or expand units to fill the
+                            remaining space and combine these modes.</p>
+                        <hr class="uk-margin-large">
+                        <h2 id="usage" class="h3 tm-heading-fragment"><a href="#usage">Usage</a></h2>
+                        <p>Add one of the <code>.uk-width-*</code> classes to an element to determine its size. Typically, you
+                            would use a grid from the <a href="grid">Grid component</a> and its child elements to create
+                            the units.</p>
+                        <div class="uk-overflow-auto">
+                            <table class="uk-table">
+                                <thead>
+                                    <tr>
+                                        <th>Class</th>
+                                        <th>Description</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td><code>.uk-width-1-1</code></td>
+                                        <td>Fills 100% of the available width.</td>
+                                    </tr>
+                                    <tr>
+                                        <td><code>.uk-width-1-2</code></td>
+                                        <td>The element takes up halves of its parent container.</td>
+                                    </tr>
+                                    <tr>
+                                        <td><code>.uk-width-1-3</code> to <code>.uk-width-2-3</code></td>
+                                        <td>The element takes up thirds of its parent container.</td>
+                                    </tr>
+                                    <tr>
+                                        <td><code>.uk-width-1-4</code> to <code>.uk-width-3-4</code></td>
+                                        <td>The element takes up fourths of its parent container.</td>
+                                    </tr>
+                                    <tr>
+                                        <td><code>.uk-width-1-5</code> to <code>.uk-width-4-5</code></td>
+                                        <td>The element takes up fifths of its parent container.</td>
+                                    </tr>
+                                    <tr>
+                                        <td><code>.uk-width-1-6</code> to <code>.uk-width-5-6</code></td>
+                                        <td>The element takes up sixths of its parent container.</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="uk-margin-medium">
+                            <pre><code class="lang-html hljs xml"><span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">uk-grid</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"uk-width-1-2"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"uk-width-1-2"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+</code></pre>
+                        </div>
+                        <div class="uk-position-relative uk-margin-medium">
+
+                            <ul uk-tab="" class="uk-tab">
+                                <li aria-expanded="true" class="uk-active"><a href="#">Preview</a></li>
+                                <li aria-expanded="false"><a href="#">Markup</a></li>
+                            </ul>
+
+                            <ul class="uk-switcher uk-margin">
+                                <li class="uk-active">
+                                    <div class="uk-text-center uk-grid" uk-grid="">
+                                        <div class="uk-width-1-3 uk-first-column">
+                                            <div class="uk-card uk-card-default uk-card-body">1-3</div>
+                                        </div>
+                                        <div class="uk-width-1-3">
+                                            <div class="uk-card uk-card-default uk-card-body">1-3</div>
+                                        </div>
+                                        <div class="uk-width-1-3">
+                                            <div class="uk-card uk-card-default uk-card-body">1-3</div>
+                                        </div>
+                                    </div>
+
+                                    <div class="uk-text-center uk-grid" uk-grid="">
+                                        <div class="uk-width-1-2 uk-first-column">
+                                            <div class="uk-card uk-card-default uk-card-body">1-2</div>
+                                        </div>
+                                        <div class="uk-width-1-2">
+                                            <div class="uk-card uk-card-default uk-card-body">1-2</div>
+                                        </div>
+                                    </div>
+
+                                    <div class="uk-text-center uk-grid" uk-grid="">
+                                        <div class="uk-width-1-4 uk-first-column">
+                                            <div class="uk-card uk-card-default uk-card-body">1-4</div>
+                                        </div>
+                                        <div class="uk-width-3-4">
+                                            <div class="uk-card uk-card-default uk-card-body">3-4</div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <pre><code id="TK3k" class="lang-html hljs xml"><span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"uk-text-center"</span> <span class="hljs-attr">uk-grid</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"uk-width-1-3"</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"uk-card uk-card-default uk-card-body"</span>&gt;</span>1-3<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"uk-width-1-3"</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"uk-card uk-card-default uk-card-body"</span>&gt;</span>1-3<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"uk-width-1-3"</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"uk-card uk-card-default uk-card-body"</span>&gt;</span>1-3<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+
+<span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"uk-text-center"</span> <span class="hljs-attr">uk-grid</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"uk-width-1-2"</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"uk-card uk-card-default uk-card-body"</span>&gt;</span>1-2<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"uk-width-1-2"</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"uk-card uk-card-default uk-card-body"</span>&gt;</span>1-2<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+
+<span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"uk-text-center"</span> <span class="hljs-attr">uk-grid</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"uk-width-1-4"</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"uk-card uk-card-default uk-card-body"</span>&gt;</span>1-4<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"uk-width-3-4"</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"uk-card uk-card-default uk-card-body"</span>&gt;</span>3-4<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span></code></pre>
+                                </li>
+                            </ul>
+
+                            <div class="uk-position-top-right uk-margin-small-top">
+                                <ul class="uk-iconnav">
+                                    <li>
+                                        <a class="js-copy" uk-tooltip="" rel="#TK3k" aria-expanded="false"><img class="uk-icon" src="../images/icon-clipboard.svg" uk-svg="" hidden="hidden">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" ratio="1" class="uk-icon uk-svg">
+                                                <line fill="none" stroke="#000" x1="5.5" y1="9.5" x2="15" y2="9.5"></line>
+                                                <line fill="none" stroke="#000" x1="5" y1="1.5" x2="9" y2="1.5"></line>
+                                                <polyline fill="none" stroke="#000" stroke-width="1.03" points="8.5,6.5 5.5,9.5 8.5,12.5"></polyline>
+                                                <polyline fill="none" stroke="#000" points="12.5,7 12.5,2.5 9.5,2.5 9.5,3.5 4.5,3.5 4.5,2.5 1.5,2.5 1.5,15.5 12.5,15.5 12.5,12"></polyline>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="js-codepen" uk-tooltip="" rel="#TK3k" aria-expanded="false"><img class="uk-icon" src="../images/icon-flask.svg" uk-svg="" hidden="hidden">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" ratio="1" class="uk-icon uk-svg">
+                                                <line fill="none" stroke="#000" x1="5" y1="7.5" x2="12" y2="7.5"></line>
+                                                <line fill="none" stroke="#000" x1="4" y1="1.5" x2="13" y2="1.5"></line>
+                                                <path fill="none" stroke="#000" d="M5.078,1.5l1.433,1.868C6.952,3.93,6.948,4.839,6.646,5.48L2.147,12 c-0.418,0.962,0.028,2.5,1.353,2.5h10c1.328,0,1.777-1.538,1.359-2.5L10.4,5.479c-0.303-0.641-0.31-1.55,0.136-2.112L11.922,1.5"></path>
+                                                <circle fill="#000" cx="10.5" cy="9.5" r="0.5"></circle>
+                                                <circle fill="#000" cx="11.5" cy="11.5" r="0.5"></circle>
+                                                <circle fill="#000" cx="8.5" cy="11.5" r="0.5"></circle>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <hr class="uk-margin-large">
+                        <h2 id="auto-and-expand" class="h3 tm-heading-fragment"><a href="#auto-and-expand">Auto &amp; expand</a></h2>
+                        <p>The width component provides additional modifiers to give you more flexibility in the distribution
+                            of items.</p>
+                        <div class="uk-overflow-auto">
+                            <table class="uk-table">
+                                <thead>
+                                    <tr>
+                                        <th>Class</th>
+                                        <th>Description</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td><code>.uk-width-auto</code></td>
+                                        <td>The item expands only to the width of its own content.</td>
+                                    </tr>
+                                    <tr>
+                                        <td><code>.uk-width-expand</code></td>
+                                        <td>The item expands to fill up the remaining space of the grid container.</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="uk-margin-medium">
+                            <pre><code class="lang-html hljs xml"><span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">uk-grid</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"uk-width-auto"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"uk-width-expand"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+</code></pre>
+                        </div>
+                        <div class="uk-position-relative uk-margin-medium">
+
+                            <ul uk-tab="" class="uk-tab">
+                                <li aria-expanded="true" class="uk-active"><a href="#">Preview</a></li>
+                                <li aria-expanded="false"><a href="#">Markup</a></li>
+                            </ul>
+
+                            <ul class="uk-switcher uk-margin">
+                                <li class="uk-active">
+                                    <div class="uk-text-center uk-grid" uk-grid="">
+                                        <div class="uk-width-auto uk-first-column">
+                                            <div class="uk-card uk-card-default uk-card-body">Auto</div>
+                                        </div>
+                                        <div class="uk-width-expand">
+                                            <div class="uk-card uk-card-default uk-card-body">Expand</div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <pre><code id="L3mT" class="lang-html hljs xml"><span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"uk-text-center"</span> <span class="hljs-attr">uk-grid</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"uk-width-auto"</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"uk-card uk-card-default uk-card-body"</span>&gt;</span>Auto<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"uk-width-expand"</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"uk-card uk-card-default uk-card-body"</span>&gt;</span>Expand<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span></code></pre>
+                                </li>
+                            </ul>
+
+                            <div class="uk-position-top-right uk-margin-small-top">
+                                <ul class="uk-iconnav">
+                                    <li>
+                                        <a class="js-copy" uk-tooltip="" rel="#L3mT" aria-expanded="false"><img class="uk-icon" src="../images/icon-clipboard.svg" uk-svg="" hidden="hidden">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" ratio="1" class="uk-icon uk-svg">
+                                                <line fill="none" stroke="#000" x1="5.5" y1="9.5" x2="15" y2="9.5"></line>
+                                                <line fill="none" stroke="#000" x1="5" y1="1.5" x2="9" y2="1.5"></line>
+                                                <polyline fill="none" stroke="#000" stroke-width="1.03" points="8.5,6.5 5.5,9.5 8.5,12.5"></polyline>
+                                                <polyline fill="none" stroke="#000" points="12.5,7 12.5,2.5 9.5,2.5 9.5,3.5 4.5,3.5 4.5,2.5 1.5,2.5 1.5,15.5 12.5,15.5 12.5,12"></polyline>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="js-codepen" uk-tooltip="" rel="#L3mT" aria-expanded="false"><img class="uk-icon" src="../images/icon-flask.svg" uk-svg="" hidden="hidden">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" ratio="1" class="uk-icon uk-svg">
+                                                <line fill="none" stroke="#000" x1="5" y1="7.5" x2="12" y2="7.5"></line>
+                                                <line fill="none" stroke="#000" x1="4" y1="1.5" x2="13" y2="1.5"></line>
+                                                <path fill="none" stroke="#000" d="M5.078,1.5l1.433,1.868C6.952,3.93,6.948,4.839,6.646,5.48L2.147,12 c-0.418,0.962,0.028,2.5,1.353,2.5h10c1.328,0,1.777-1.538,1.359-2.5L10.4,5.479c-0.303-0.641-0.31-1.55,0.136-2.112L11.922,1.5"></path>
+                                                <circle fill="#000" cx="10.5" cy="9.5" r="0.5"></circle>
+                                                <circle fill="#000" cx="11.5" cy="11.5" r="0.5"></circle>
+                                                <circle fill="#000" cx="8.5" cy="11.5" r="0.5"></circle>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <hr class="uk-margin-large">
+                        <h2 id="equal-child-widths" class="h3 tm-heading-fragment"><a href="#equal-child-widths">Equal child widths</a></h2>
+                        <p>To create a grid whose child elements' widths are evenly split, you don't have to apply the same
+                            class to each list item within the grid. Just add one of the <code>.uk-child-width-*</code> classes
+                            to the grid itself.</p>
+                        <div class="uk-overflow-auto">
+                            <table class="uk-table">
+                                <thead>
+                                    <tr>
+                                        <th>Class</th>
+                                        <th>Description</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td><code>.uk-child-width-1-2</code></td>
+                                        <td>All elements take up half of their parent container.</td>
+                                    </tr>
+                                    <tr>
+                                        <td><code>.uk-child-width-1-3</code></td>
+                                        <td>All elements take up a third of their parent container.</td>
+                                    </tr>
+                                    <tr>
+                                        <td><code>.uk-child-width-1-4</code></td>
+                                        <td>All elements take up a fourth of their parent container.</td>
+                                    </tr>
+                                    <tr>
+                                        <td><code>.uk-child-width-1-5</code></td>
+                                        <td>All elements take up a fifth of their parent container.</td>
+                                    </tr>
+                                    <tr>
+                                        <td><code>.uk-child-width-1-6</code></td>
+                                        <td>All elements take up a sixth of their parent container.</td>
+                                    </tr>
+                                    <tr>
+                                        <td><code>.uk-child-width-auto</code></td>
+                                        <td>Divides the grid into equal units depending on the content size.</td>
+                                    </tr>
+                                    <tr>
+                                        <td><code>.uk-child-width-expand</code></td>
+                                        <td>Divides the grid into equal units depending on the available space.</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="uk-margin-medium">
+                            <pre><code class="lang-html hljs xml"><span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"uk-child-width-1-4"</span> <span class="hljs-attr">uk-grid</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">div</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">div</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+    ...
+<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+</code></pre>
+                        </div>
+                        <div class="uk-position-relative uk-margin-medium">
+
+                            <ul uk-tab="" class="uk-tab">
+                                <li aria-expanded="true" class="uk-active"><a href="#">Preview</a></li>
+                                <li aria-expanded="false"><a href="#">Markup</a></li>
+                            </ul>
+
+                            <ul class="uk-switcher uk-margin">
+                                <li class="uk-active">
+                                    <div class="uk-child-width-1-4 uk-grid-small uk-text-center uk-grid" uk-grid="">
+                                        <div class="uk-first-column">
+                                            <div class="uk-card uk-card-default uk-card-body">Item</div>
+                                        </div>
+                                        <div>
+                                            <div class="uk-card uk-card-default uk-card-body">Item</div>
+                                        </div>
+                                        <div>
+                                            <div class="uk-card uk-card-default uk-card-body">Item</div>
+                                        </div>
+                                        <div>
+                                            <div class="uk-card uk-card-default uk-card-body">Item</div>
+                                        </div>
+                                        <div class="uk-grid-margin uk-first-column">
+                                            <div class="uk-card uk-card-default uk-card-body">Item</div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <pre><code id="ZpxU" class="lang-html hljs xml"><span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"uk-child-width-1-4 uk-grid-small uk-text-center"</span> <span class="hljs-attr">uk-grid</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">div</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"uk-card uk-card-default uk-card-body"</span>&gt;</span>Item<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">div</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"uk-card uk-card-default uk-card-body"</span>&gt;</span>Item<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">div</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"uk-card uk-card-default uk-card-body"</span>&gt;</span>Item<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">div</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"uk-card uk-card-default uk-card-body"</span>&gt;</span>Item<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">div</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"uk-card uk-card-default uk-card-body"</span>&gt;</span>Item<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span></code></pre>
+                                </li>
+                            </ul>
+
+                            <div class="uk-position-top-right uk-margin-small-top">
+                                <ul class="uk-iconnav">
+                                    <li>
+                                        <a class="js-copy" uk-tooltip="" rel="#ZpxU" aria-expanded="false"><img class="uk-icon" src="../images/icon-clipboard.svg" uk-svg="" hidden="hidden">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" ratio="1" class="uk-icon uk-svg">
+                                                <line fill="none" stroke="#000" x1="5.5" y1="9.5" x2="15" y2="9.5"></line>
+                                                <line fill="none" stroke="#000" x1="5" y1="1.5" x2="9" y2="1.5"></line>
+                                                <polyline fill="none" stroke="#000" stroke-width="1.03" points="8.5,6.5 5.5,9.5 8.5,12.5"></polyline>
+                                                <polyline fill="none" stroke="#000" points="12.5,7 12.5,2.5 9.5,2.5 9.5,3.5 4.5,3.5 4.5,2.5 1.5,2.5 1.5,15.5 12.5,15.5 12.5,12"></polyline>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="js-codepen" uk-tooltip="" rel="#ZpxU" aria-expanded="false"><img class="uk-icon" src="../images/icon-flask.svg" uk-svg="" hidden="hidden">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" ratio="1" class="uk-icon uk-svg">
+                                                <line fill="none" stroke="#000" x1="5" y1="7.5" x2="12" y2="7.5"></line>
+                                                <line fill="none" stroke="#000" x1="4" y1="1.5" x2="13" y2="1.5"></line>
+                                                <path fill="none" stroke="#000" d="M5.078,1.5l1.433,1.868C6.952,3.93,6.948,4.839,6.646,5.48L2.147,12 c-0.418,0.962,0.028,2.5,1.353,2.5h10c1.328,0,1.777-1.538,1.359-2.5L10.4,5.479c-0.303-0.641-0.31-1.55,0.136-2.112L11.922,1.5"></path>
+                                                <circle fill="#000" cx="10.5" cy="9.5" r="0.5"></circle>
+                                                <circle fill="#000" cx="11.5" cy="11.5" r="0.5"></circle>
+                                                <circle fill="#000" cx="8.5" cy="11.5" r="0.5"></circle>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <p>Items that use width classes with fractions will break into a new row, if they no longer fit their
+                            container's width. When using one of the <em>expand</em> classes, however, the space will be
+                            evenly distributed among items that always stay in the same row.</p>
+                        <div class="uk-margin-medium">
+                            <pre><code class="lang-html hljs xml"><span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"uk-child-width-expand"</span> <span class="hljs-attr">uk-grid</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">div</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">div</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+    ...
+<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+</code></pre>
+                        </div>
+                        <div class="uk-position-relative uk-margin-medium">
+
+                            <ul uk-tab="" class="uk-tab">
+                                <li aria-expanded="true" class="uk-active"><a href="#">Preview</a></li>
+                                <li aria-expanded="false"><a href="#">Markup</a></li>
+                            </ul>
+
+                            <ul class="uk-switcher uk-margin">
+                                <li class="uk-active">
+                                    <div class="uk-child-width-expand uk-grid-small uk-text-center uk-grid" uk-grid="">
+                                        <div class="uk-first-column">
+                                            <div class="uk-card uk-card-default uk-card-body">Item</div>
+                                        </div>
+                                        <div>
+                                            <div class="uk-card uk-card-default uk-card-body">Item</div>
+                                        </div>
+                                        <div>
+                                            <div class="uk-card uk-card-default uk-card-body">Item</div>
+                                        </div>
+                                        <div>
+                                            <div class="uk-card uk-card-default uk-card-body">Item</div>
+                                        </div>
+                                        <div>
+                                            <div class="uk-card uk-card-default uk-card-body">Item</div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <pre><code id="kRwD" class="lang-html hljs xml"><span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"uk-child-width-expand uk-grid-small uk-text-center"</span> <span class="hljs-attr">uk-grid</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">div</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"uk-card uk-card-default uk-card-body"</span>&gt;</span>Item<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">div</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"uk-card uk-card-default uk-card-body"</span>&gt;</span>Item<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">div</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"uk-card uk-card-default uk-card-body"</span>&gt;</span>Item<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">div</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"uk-card uk-card-default uk-card-body"</span>&gt;</span>Item<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">div</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"uk-card uk-card-default uk-card-body"</span>&gt;</span>Item<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span></code></pre>
+                                </li>
+                            </ul>
+
+                            <div class="uk-position-top-right uk-margin-small-top">
+                                <ul class="uk-iconnav">
+                                    <li>
+                                        <a class="js-copy" uk-tooltip="" rel="#kRwD" aria-expanded="false"><img class="uk-icon" src="../images/icon-clipboard.svg" uk-svg="" hidden="hidden">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" ratio="1" class="uk-icon uk-svg">
+                                                <line fill="none" stroke="#000" x1="5.5" y1="9.5" x2="15" y2="9.5"></line>
+                                                <line fill="none" stroke="#000" x1="5" y1="1.5" x2="9" y2="1.5"></line>
+                                                <polyline fill="none" stroke="#000" stroke-width="1.03" points="8.5,6.5 5.5,9.5 8.5,12.5"></polyline>
+                                                <polyline fill="none" stroke="#000" points="12.5,7 12.5,2.5 9.5,2.5 9.5,3.5 4.5,3.5 4.5,2.5 1.5,2.5 1.5,15.5 12.5,15.5 12.5,12"></polyline>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="js-codepen" uk-tooltip="" rel="#kRwD" aria-expanded="false"><img class="uk-icon" src="../images/icon-flask.svg" uk-svg="" hidden="hidden">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" ratio="1" class="uk-icon uk-svg">
+                                                <line fill="none" stroke="#000" x1="5" y1="7.5" x2="12" y2="7.5"></line>
+                                                <line fill="none" stroke="#000" x1="4" y1="1.5" x2="13" y2="1.5"></line>
+                                                <path fill="none" stroke="#000" d="M5.078,1.5l1.433,1.868C6.952,3.93,6.948,4.839,6.646,5.48L2.147,12 c-0.418,0.962,0.028,2.5,1.353,2.5h10c1.328,0,1.777-1.538,1.359-2.5L10.4,5.479c-0.303-0.641-0.31-1.55,0.136-2.112L11.922,1.5"></path>
+                                                <circle fill="#000" cx="10.5" cy="9.5" r="0.5"></circle>
+                                                <circle fill="#000" cx="11.5" cy="11.5" r="0.5"></circle>
+                                                <circle fill="#000" cx="8.5" cy="11.5" r="0.5"></circle>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <hr class="uk-margin-large">
+                        <h2 id="fixed-width" class="h3 tm-heading-fragment"><a href="#fixed-width">Fixed width</a></h2>
+                        <p>In addition to the calculated width classes, you can also add one of the following classes, which
+                            apply fixed widths.</p>
+                        <div class="uk-overflow-auto">
+                            <table class="uk-table">
+                                <thead>
+                                    <tr>
+                                        <th>Class</th>
+                                        <th>Description</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td><code>.uk-width-small</code></td>
+                                        <td>Applies a fixed width of <em>150px</em>.</td>
+                                    </tr>
+                                    <tr>
+                                        <td><code>.uk-width-medium</code></td>
+                                        <td>Applies a fixed width of <em>300px</em>.</td>
+                                    </tr>
+                                    <tr>
+                                        <td><code>.uk-width-large</code></td>
+                                        <td>Applies a fixed width of <em>450px</em>.</td>
+                                    </tr>
+                                    <tr>
+                                        <td><code>.uk-width-xlarge</code></td>
+                                        <td>Applies a fixed width of <em>600px</em>.</td>
+                                    </tr>
+                                    <tr>
+                                        <td><code>.uk-width-xxlarge</code></td>
+                                        <td>Applies a fixed width of <em>750px</em>.</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="uk-margin-medium">
+                            <pre><code class="lang-html hljs xml"><span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"uk-width-medium"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+</code></pre>
+                        </div>
+                        <div class="uk-position-relative uk-margin-medium">
+
+                            <ul uk-tab="" class="uk-tab">
+                                <li aria-expanded="true" class="uk-active"><a href="#">Preview</a></li>
+                                <li aria-expanded="false"><a href="#">Markup</a></li>
+                            </ul>
+
+                            <ul class="uk-switcher uk-margin">
+                                <li class="uk-active">
+                                    <div class="uk-width-small uk-margin">
+                                        <div class="uk-card uk-card-small uk-card-default uk-card-body">Small</div>
+                                    </div>
+                                    <div class="uk-width-medium uk-margin">
+                                        <div class="uk-card uk-card-small uk-card-default uk-card-body">Medium</div>
+                                    </div>
+                                    <div class="uk-width-large uk-margin">
+                                        <div class="uk-card uk-card-small uk-card-default uk-card-body">Large</div>
+                                    </div>
+                                    <div class="uk-width-xlarge uk-margin">
+                                        <div class="uk-card uk-card-small uk-card-default uk-card-body">X Large</div>
+                                    </div>
+                                    <div class="uk-width-xxlarge uk-margin">
+                                        <div class="uk-card uk-card-small uk-card-default uk-card-body">XX Large</div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <pre><code id="tQSn" class="lang-html hljs xml"><span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"uk-width-small uk-margin"</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"uk-card uk-card-small uk-card-default uk-card-body"</span>&gt;</span>Small<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"uk-width-medium uk-margin"</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"uk-card uk-card-small uk-card-default uk-card-body"</span>&gt;</span>Medium<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"uk-width-large uk-margin"</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"uk-card uk-card-small uk-card-default uk-card-body"</span>&gt;</span>Large<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"uk-width-xlarge uk-margin"</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"uk-card uk-card-small uk-card-default uk-card-body"</span>&gt;</span>X Large<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"uk-width-xxlarge uk-margin"</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"uk-card uk-card-small uk-card-default uk-card-body"</span>&gt;</span>XX Large<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span></code></pre>
+                                </li>
+                            </ul>
+
+                            <div class="uk-position-top-right uk-margin-small-top">
+                                <ul class="uk-iconnav">
+                                    <li>
+                                        <a class="js-copy" uk-tooltip="" rel="#tQSn" aria-expanded="false"><img class="uk-icon" src="../images/icon-clipboard.svg" uk-svg="" hidden="hidden">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" ratio="1" class="uk-icon uk-svg">
+                                                <line fill="none" stroke="#000" x1="5.5" y1="9.5" x2="15" y2="9.5"></line>
+                                                <line fill="none" stroke="#000" x1="5" y1="1.5" x2="9" y2="1.5"></line>
+                                                <polyline fill="none" stroke="#000" stroke-width="1.03" points="8.5,6.5 5.5,9.5 8.5,12.5"></polyline>
+                                                <polyline fill="none" stroke="#000" points="12.5,7 12.5,2.5 9.5,2.5 9.5,3.5 4.5,3.5 4.5,2.5 1.5,2.5 1.5,15.5 12.5,15.5 12.5,12"></polyline>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="js-codepen" uk-tooltip="" rel="#tQSn" aria-expanded="false"><img class="uk-icon" src="../images/icon-flask.svg" uk-svg="" hidden="hidden">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" ratio="1" class="uk-icon uk-svg">
+                                                <line fill="none" stroke="#000" x1="5" y1="7.5" x2="12" y2="7.5"></line>
+                                                <line fill="none" stroke="#000" x1="4" y1="1.5" x2="13" y2="1.5"></line>
+                                                <path fill="none" stroke="#000" d="M5.078,1.5l1.433,1.868C6.952,3.93,6.948,4.839,6.646,5.48L2.147,12 c-0.418,0.962,0.028,2.5,1.353,2.5h10c1.328,0,1.777-1.538,1.359-2.5L10.4,5.479c-0.303-0.641-0.31-1.55,0.136-2.112L11.922,1.5"></path>
+                                                <circle fill="#000" cx="10.5" cy="9.5" r="0.5"></circle>
+                                                <circle fill="#000" cx="11.5" cy="11.5" r="0.5"></circle>
+                                                <circle fill="#000" cx="8.5" cy="11.5" r="0.5"></circle>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <hr class="uk-margin-large">
+                        <h2 id="mixing-widths" class="h3 tm-heading-fragment"><a href="#mixing-widths">Mixing widths</a></h2>
+                        <p>You can also combine <code>.uk-child-width-*</code> classes with <code>.uk-width-*</code> classes
+                            for individual items. That way it is possible, for example, to create a grid with one item that
+                            has a specific width and all other items expanding to fill the remaining space.</p>
+                        <div class="uk-margin-medium">
+                            <pre><code class="lang-html hljs xml"><span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"uk-child-width-expand"</span> <span class="hljs-attr">uk-grid</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">div</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"uk-width-1-3"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">div</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+    ...
+<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+</code></pre>
+                        </div>
+                        <div class="uk-position-relative uk-margin-medium">
+
+                            <ul uk-tab="" class="uk-tab">
+                                <li aria-expanded="true" class="uk-active"><a href="#">Preview</a></li>
+                                <li aria-expanded="false"><a href="#">Markup</a></li>
+                            </ul>
+
+                            <ul class="uk-switcher uk-margin">
+                                <li class="uk-active">
+                                    <div class="uk-child-width-expand uk-grid-small uk-text-center uk-grid" uk-grid="">
+                                        <div class="uk-first-column">
+                                            <div class="uk-card uk-card-default uk-card-body">Expand</div>
+                                        </div>
+                                        <div class="uk-width-1-3">
+                                            <div class="uk-card uk-card-default uk-card-body">1-3</div>
+                                        </div>
+                                        <div>
+                                            <div class="uk-card uk-card-default uk-card-body">Expand</div>
+                                        </div>
+                                        <div>
+                                            <div class="uk-card uk-card-default uk-card-body">Expand</div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <pre><code id="5Kpb" class="lang-html hljs xml"><span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"uk-child-width-expand uk-grid-small uk-text-center"</span> <span class="hljs-attr">uk-grid</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">div</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"uk-card uk-card-default uk-card-body"</span>&gt;</span>Expand<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"uk-width-1-3"</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"uk-card uk-card-default uk-card-body"</span>&gt;</span>1-3<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">div</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"uk-card uk-card-default uk-card-body"</span>&gt;</span>Expand<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">div</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"uk-card uk-card-default uk-card-body"</span>&gt;</span>Expand<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span></code></pre>
+                                </li>
+                            </ul>
+
+                            <div class="uk-position-top-right uk-margin-small-top">
+                                <ul class="uk-iconnav">
+                                    <li>
+                                        <a class="js-copy" uk-tooltip="" rel="#5Kpb" aria-expanded="false"><img class="uk-icon" src="../images/icon-clipboard.svg" uk-svg="" hidden="hidden">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" ratio="1" class="uk-icon uk-svg">
+                                                <line fill="none" stroke="#000" x1="5.5" y1="9.5" x2="15" y2="9.5"></line>
+                                                <line fill="none" stroke="#000" x1="5" y1="1.5" x2="9" y2="1.5"></line>
+                                                <polyline fill="none" stroke="#000" stroke-width="1.03" points="8.5,6.5 5.5,9.5 8.5,12.5"></polyline>
+                                                <polyline fill="none" stroke="#000" points="12.5,7 12.5,2.5 9.5,2.5 9.5,3.5 4.5,3.5 4.5,2.5 1.5,2.5 1.5,15.5 12.5,15.5 12.5,12"></polyline>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="js-codepen" uk-tooltip="" rel="#5Kpb" aria-expanded="false"><img class="uk-icon" src="../images/icon-flask.svg" uk-svg="" hidden="hidden">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" ratio="1" class="uk-icon uk-svg">
+                                                <line fill="none" stroke="#000" x1="5" y1="7.5" x2="12" y2="7.5"></line>
+                                                <line fill="none" stroke="#000" x1="4" y1="1.5" x2="13" y2="1.5"></line>
+                                                <path fill="none" stroke="#000" d="M5.078,1.5l1.433,1.868C6.952,3.93,6.948,4.839,6.646,5.48L2.147,12 c-0.418,0.962,0.028,2.5,1.353,2.5h10c1.328,0,1.777-1.538,1.359-2.5L10.4,5.479c-0.303-0.641-0.31-1.55,0.136-2.112L11.922,1.5"></path>
+                                                <circle fill="#000" cx="10.5" cy="9.5" r="0.5"></circle>
+                                                <circle fill="#000" cx="11.5" cy="11.5" r="0.5"></circle>
+                                                <circle fill="#000" cx="8.5" cy="11.5" r="0.5"></circle>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <hr class="uk-margin-large">
+                        <h2 id="responsive-width" class="h3 tm-heading-fragment"><a href="#responsive-width">Responsive width</a></h2>
+                        <p>UIkit provides a number of responsive widths classes. Basically they work just like the usual width
+                            classes, except that they have suffixes that represent the breakpoint from which they come to
+                            effect. These classes can be combined with the <a href="visibility">Visibility component</a>.
+                            This is great to adjust your layout and content for different device sizes.</p>
+                        <div class="uk-overflow-auto">
+                            <table class="uk-table">
+                                <thead>
+                                    <tr>
+                                        <th>Class</th>
+                                        <th>Description</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td><code>.uk-width-*</code><br> <code>.uk-child-width-*</code></td>
+                                        <td>Affects all device widths, grid columns stay side by side.</td>
+                                    </tr>
+                                    <tr>
+                                        <td><code>.uk-width-*@s</code><br> <code>.uk-child-width-*@s</code></td>
+                                        <td>Affects device widths of <em>640px</em> and larger. Grid columns will stack on smaller
+                                            sizes.
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td><code>.uk-width-*@m</code><br> <code>.uk-child-width-*@m</code></td>
+                                        <td>Affects device widths of <em>960px</em> and larger. Grid columns will stack on smaller
+                                            sizes.
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td><code>.uk-width-*@l</code><br> <code>.uk-child-width-*@l</code></td>
+                                        <td>Affects device widths of <em>1200px</em> and larger. Grid columns will stack on smaller
+                                            sizes.
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td><code>.uk-width-@xl</code><br> <code>.uk-child-width-*@xl</code></td>
+                                        <td>Affects device widths of <em>1600px</em> and larger. Grid columns will stack on smaller
+                                            sizes.
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="uk-position-relative uk-margin-medium">
+
+                            <ul uk-tab="" class="uk-tab">
+                                <li aria-expanded="true" class="uk-active"><a href="#">Preview</a></li>
+                                <li aria-expanded="false"><a href="#">Markup</a></li>
+                            </ul>
+
+                            <ul class="uk-switcher uk-margin">
+                                <li class="uk-active">
+                                    <div class="uk-grid-match uk-grid-small uk-text-center uk-grid" uk-grid="">
+                                        <div class="uk-width-1-2@m uk-first-column">
+                                            <div class="uk-card uk-card-default uk-card-body">1-2@m</div>
+                                        </div>
+                                        <div class="uk-width-1-4@m">
+                                            <div class="uk-card uk-card-default uk-card-body">1-4@m</div>
+                                        </div>
+                                        <div class="uk-width-1-4@m">
+                                            <div class="uk-card uk-card-default uk-card-body">1-4@m</div>
+                                        </div>
+                                        <div class="uk-width-1-5@m uk-hidden@l">
+                                            <div class="uk-card uk-card-secondary uk-card-body">1-5@m<br>hidden@l</div>
+                                        </div>
+                                        <div class="uk-width-1-5@m uk-width-1-3@l uk-grid-margin uk-first-column">
+                                            <div class="uk-card uk-card-default uk-card-body">1-5@m<br>1-3@l</div>
+                                        </div>
+                                        <div class="uk-width-3-5@m uk-width-2-3@l uk-grid-margin">
+                                            <div class="uk-card uk-card-default uk-card-body">3-5@m<br>2-3@l</div>
+                                        </div>
+                                    </div>
+
+                                    <div class="uk-grid-match uk-grid-small uk-text-center uk-grid" uk-grid="">
+                                        <div class="uk-width-auto@m uk-visible@l uk-first-column">
+                                            <div class="uk-card uk-card-primary uk-card-body">auto@m<br>visible@l</div>
+                                        </div>
+                                        <div class="uk-width-1-3@m">
+                                            <div class="uk-card uk-card-default uk-card-body">1-3@m</div>
+                                        </div>
+                                        <div class="uk-width-expand@m">
+                                            <div class="uk-card uk-card-default uk-card-body">expand@m</div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <pre><code id="axbm" class="lang-html hljs xml"><span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"uk-grid-match uk-grid-small uk-text-center"</span> <span class="hljs-attr">uk-grid</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"uk-width-1-2@m"</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"uk-card uk-card-default uk-card-body"</span>&gt;</span>1-2@m<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"uk-width-1-4@m"</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"uk-card uk-card-default uk-card-body"</span>&gt;</span>1-4@m<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"uk-width-1-4@m"</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"uk-card uk-card-default uk-card-body"</span>&gt;</span>1-4@m<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"uk-width-1-5@m uk-hidden@l"</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"uk-card uk-card-secondary uk-card-body"</span>&gt;</span>1-5@m<span class="hljs-tag">&lt;<span class="hljs-name">br</span>&gt;</span>hidden@l<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"uk-width-1-5@m uk-width-1-3@l"</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"uk-card uk-card-default uk-card-body"</span>&gt;</span>1-5@m<span class="hljs-tag">&lt;<span class="hljs-name">br</span>&gt;</span>1-3@l<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"uk-width-3-5@m uk-width-2-3@l"</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"uk-card uk-card-default uk-card-body"</span>&gt;</span>3-5@m<span class="hljs-tag">&lt;<span class="hljs-name">br</span>&gt;</span>2-3@l<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+
+<span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"uk-grid-match uk-grid-small uk-text-center"</span> <span class="hljs-attr">uk-grid</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"uk-width-auto@m uk-visible@l"</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"uk-card uk-card-primary uk-card-body"</span>&gt;</span>auto@m<span class="hljs-tag">&lt;<span class="hljs-name">br</span>&gt;</span>visible@l<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"uk-width-1-3@m"</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"uk-card uk-card-default uk-card-body"</span>&gt;</span>1-3@m<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"uk-width-expand@m"</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"uk-card uk-card-default uk-card-body"</span>&gt;</span>expand@m<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span></code></pre>
+                                </li>
+                            </ul>
+
+                            <div class="uk-position-top-right uk-margin-small-top">
+                                <ul class="uk-iconnav">
+                                    <li>
+                                        <a class="js-copy" uk-tooltip="" rel="#axbm" aria-expanded="false"><img class="uk-icon" src="../images/icon-clipboard.svg" uk-svg="" hidden="hidden">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" ratio="1" class="uk-icon uk-svg">
+                                                <line fill="none" stroke="#000" x1="5.5" y1="9.5" x2="15" y2="9.5"></line>
+                                                <line fill="none" stroke="#000" x1="5" y1="1.5" x2="9" y2="1.5"></line>
+                                                <polyline fill="none" stroke="#000" stroke-width="1.03" points="8.5,6.5 5.5,9.5 8.5,12.5"></polyline>
+                                                <polyline fill="none" stroke="#000" points="12.5,7 12.5,2.5 9.5,2.5 9.5,3.5 4.5,3.5 4.5,2.5 1.5,2.5 1.5,15.5 12.5,15.5 12.5,12"></polyline>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="js-codepen" uk-tooltip="" rel="#axbm" aria-expanded="false"><img class="uk-icon" src="../images/icon-flask.svg" uk-svg="" hidden="hidden">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" ratio="1" class="uk-icon uk-svg">
+                                                <line fill="none" stroke="#000" x1="5" y1="7.5" x2="12" y2="7.5"></line>
+                                                <line fill="none" stroke="#000" x1="4" y1="1.5" x2="13" y2="1.5"></line>
+                                                <path fill="none" stroke="#000" d="M5.078,1.5l1.433,1.868C6.952,3.93,6.948,4.839,6.646,5.48L2.147,12 c-0.418,0.962,0.028,2.5,1.353,2.5h10c1.328,0,1.777-1.538,1.359-2.5L10.4,5.479c-0.303-0.641-0.31-1.55,0.136-2.112L11.922,1.5"></path>
+                                                <circle fill="#000" cx="10.5" cy="9.5" r="0.5"></circle>
+                                                <circle fill="#000" cx="11.5" cy="11.5" r="0.5"></circle>
+                                                <circle fill="#000" cx="8.5" cy="11.5" r="0.5"></circle>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </section>
+
+        <footer class="uk-section uk-padding-remove-vertical uk-light" style="background-color: #151515;">
+            <div class="footer-area">
+                <div class="uk-container">
+                    <div class="uk-flex-middle uk-child-width-expand@m uk-child-width-1-1@s" data-uk-grid>
+                        <div class="uk-text-center">
+                            <div class="copyright uk-margin-bottom">
+                                © Copyright 2017 - All Rights Reserved
+                            </div>
+                            <a href="" data-uk-scroll>Back To Top &nbsp;&nbsp;<a href="12-Videos.html"><i class="ion-ios-arrow-up"></i></a></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        </div>
+        <!-- .main-container close -->
+        <script src="assets/js/jquery-3.2.0.min.js"></script>
+        <script src="assets/js/uikit.min.js"></script>
+        <script src="assets/js/theme.js"></script>
+        <script src="assets/js/shCore.js"></script>
+</body>
+
+</html>
